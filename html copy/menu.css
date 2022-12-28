@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+header{
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.navbar{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header li{
+    display: inline-block ;
+    vertical-align: top;
+    position: relative;
+}
+
+header li a{
+    display: block;
+    padding: 20px;
+}
+
+header li:hover{
+    background-color: red;
+}
+
+header li a:hover{
+    color: white;
+}
+
+header li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.sub-menu li{
+    display: block;
+}
+
+.sub-menu li a{
+    color: white;
+}
+
+.sub-menu li:hover a{
+    background-color: white;
+    color: red;
+}
+
+.LabIsen{
+    width: 150px;
+    height: 63px;
+}
+
+footer{
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer a:hover{
+    color: red;
+}
