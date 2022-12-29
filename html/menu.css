@@ -10,7 +10,7 @@ body{
     line-height: 22px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black; 
 }
@@ -18,61 +18,43 @@ a{
 header{
     border-bottom: 1px solid black;
     display: flex;
+    background-color: rgb(190, 190, 190);
 }
 
-.navbar{
-    margin: 0 auto;
-    width: 1000px;
+header ul{
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
 }
 
-header li{
-    display: inline-block ;
-    vertical-align: top;
-    position: relative;
+header ul li{
+    display: table-cell;
+    border: solid rgb(190, 190, 190);
+    background-color: rgb(180, 180, 180);
+    border-radius: 10%;
 }
 
-header li a{
-    display: block;
-    padding: 20px;
+header ul li a{
+    margin: 20px;
 }
 
 header li:hover{
-    background-color: red;
-}
-
-header li a:hover{
-    color: white;
-}
-
-header li:hover .sub-menu {
-    display: block;
+    background-color: white;
 }
 
 .sub-menu{
     display: none;
-    position: absolute;
-    background-color: red;
-    color: white;
-    text-align: center;
 }
 
-.sub-menu li{
-    display: block;
-}
 
-.sub-menu li a{
-    color: white;
-}
-
-.sub-menu li:hover a{
-    background-color: white;
-    color: red;
-}
 
 .LabIsen{
-    width: 150px;
-    height: 63px;
+    width: 100px;
+    height: 50px;
 }
+
+
+
 
 footer{
     border-top: 1px solid black;
@@ -86,8 +68,10 @@ footer{
 
 footer a {
     text-decoration: underline;
+    color: black;
 }
 
 footer a:hover{
     color: red;
 }
+
