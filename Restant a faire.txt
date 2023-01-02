@@ -1,0 +1,45 @@
+menu:
+-faire appartaitre les icons
+-faire le menu déroulant
+-rajouter les liens linkedin
+
+accueil:
+-faire file d'actu + css
+
+thematique:
+-css
+
+plateformes:
+-trouver une photo pour le deuxieme + css
+
+membre:
+-faire des belles icons pour linkedin et school machin +css
+
+projets:
+-trouver video ou image(jsp trop ce que c'est) +css
+
+publications:
+-tout faire
+
+partenaires:
+- mots clés sur la collab + css
+
+Contactez-nous:
+- css
+
+Infos et contact reste:
+- tout faire
+
+
+
+
+réussir à lié les images lorsque'elle sont pas dans le même dossier(jsp pourquoi ça marche pas)
+
+
+
+
+
+
+
+
+
