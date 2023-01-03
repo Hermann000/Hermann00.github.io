@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body header{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    all: unset;
+}
+
+.navbar{
+    margin: 0 auto;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(220, 220, 220);
+    margin-bottom: 50px;
+    display: flex;
+}
+
+header li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    background-color: rgb(200, 200, 200);
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(220, 220, 220);
+    width: 200px;
+}
+
+header li a{
+    display: block;
+    padding: 10px;
+}
+
+header li:hover{
+    background-color: white;
+    color: black;
+}
+
+header li:hover .sub-menu{
+    display: block;
+}
+
+header ul li a{
+    display: flex;
+    align-items: center;
+}
+
+.sub-menu li{
+    display: block;
+    background-color: white;
+    border-radius: 0;
+    margin: 0;
+}
+
+.sub-menu li:hover a{
+    background-color: rgb(200, 200, 200);
+}
+
+header li img{
+    width: 25px;
+    height: 25px;
+}
+
+.logo{
+    margin: 10px;
+    width: 170px;
+    height: 50px;
+}
+
+footer{
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+}
+
+
+.lien{
+    display: flex;
+    flex-direction: column;
+}
+
+.lien a {
+    color:black;
+    text-align: left;
+}
+
+.lien a:hover{
+    color: white;
+}
+
+
+footer .linkedin{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .linkedin a{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+
