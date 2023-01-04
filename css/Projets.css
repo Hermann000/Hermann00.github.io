@@ -1,6 +1,6 @@
 dl{
     border: solid 1px white;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: rgb(220,220,220);
     margin-bottom: 2%;
     width: 50%;
@@ -13,9 +13,9 @@ dl{
 }
 
 dl dt{
-    padding: 2%;
+    margin: 5%;
 }
 
 dl dt dd{
-    padding: 2%;
+    margin: 5%;
 }
