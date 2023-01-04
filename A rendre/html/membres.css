@@ -1,0 +1,50 @@
+.carte{
+    border: solid 1px white;
+    border-radius: 10%;
+    background-color: rgb(220, 220,220);
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+.tete{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.carte a img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.name{
+    font-size: large;
+    margin: 10px;
+}
+
+.attribut{
+    margin: 5px;
+    color: rgb(150, 150, 150);
+}
+
+.chercheur{
+    display: flex;
+}
+
+.reste{
+    display: flex;
+}
+
+li{
+    margin: 5px;
+}
+
+.titre{
+    text-align: center;
+    font-size: large;
+}
