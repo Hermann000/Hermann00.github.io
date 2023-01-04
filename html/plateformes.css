@@ -1,0 +1,46 @@
+.txt1{
+    border: 1px solid white;
+    width: 60%;
+    border-radius: 10%;
+    background-color: rgb(220, 220, 220);
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.txt2{
+    border: 1px solid white;
+    width: 60%;
+    border-radius: 10%;
+    background-color: rgb(220, 220, 220);
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.image1{
+    width: 1000px;
+    height: 200px;
+    padding: 20px;
+    display: inline;
+}
+
+.image2{
+    width: 1000px;
+    height: 200px;
+    padding: 20px;
+    display: inline;
+}
+
+div{
+    text-align: center;
+}
+
+dt{
+    padding: 20px;
+    text-align: center;
+}
+
+dd{
+    padding: 20px;
+}
