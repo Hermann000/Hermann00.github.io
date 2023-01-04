@@ -1,0 +1,21 @@
+dl{
+    border: solid 1px white;
+    border-radius: 10%;
+    background-color: rgb(220,220,220);
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+.titre{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+dl dt{
+    padding: 2%;
+}
+
+dl dt dd{
+    padding: 2%;
+}
