@@ -1,0 +1,19 @@
+div ul li{
+    margin: 2%;
+    text-align: center;
+}
+
+div ul li a{
+    color: black;
+    font-size: 120% ;
+}
+
+.revue{
+    list-style-type: square;
+    color: blue;
+}
+
+.congres{
+    list-style-type: square;
+    color: rgb(233, 0, 202);
+}
