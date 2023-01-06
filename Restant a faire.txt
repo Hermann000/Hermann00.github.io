@@ -5,19 +5,19 @@ accueil:
 -faire file d'actu + css
 
 thematique:
--c bon
+-responsive
 
 plateformes:
--c bon
+-responsive
 
 membre:
--alligner les titres et les icons
+-responsive
 
 projets:
--trouver video ou image(jsp trop ce que c'est) +css
+-trouver images +css
 
 publications:
--tout faire
+-css + responsive
 
 partenaires:
 - mots clés sur la collab + css
@@ -26,12 +26,9 @@ Contactez-nous:
 - css
 
 Infos et contact reste:
-- tout faire
+-tout faire
 
 
-
-
-réussir à lié les images lorsque'elle sont pas dans le même dossier(jsp pourquoi ça marche pas)
 
 
 
