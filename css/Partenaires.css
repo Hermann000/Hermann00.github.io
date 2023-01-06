@@ -1,0 +1,21 @@
+.nat a img{
+    width: 10%;
+    height: 10%;
+    margin-left: 2%;
+}
+
+.inter a img{
+    width: 10%;
+    height: 10%;
+    margin-left: 2%;
+    
+}
+
+
+
+.titre {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}

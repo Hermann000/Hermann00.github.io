@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+}
+
+div{
+    margin-top: 2%;
+    text-align: center;
+}
+
+form img{
+    width: 2%;
+    height: 2%;
+    background-color: rgb(220,220,220);
+}
+
+imput{
+    margin: 2%;
+}
+
+p input{
+    margin-top: 2%;
+}

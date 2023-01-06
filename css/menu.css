@@ -85,7 +85,7 @@ header li img{
 footer{
     border-top: 1px solid black;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     margin-top: 50px;
     margin-bottom: 0;
     background-color: rgb(220, 220, 220);
@@ -116,7 +116,7 @@ footer .linkedin{
 footer .linkedin a{
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 100px;
 }
 
 footer img{
