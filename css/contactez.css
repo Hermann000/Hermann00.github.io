@@ -7,14 +7,29 @@ div{
     text-align: center;
 }
 
-form img{
-    width: 2%;
-    height: 2%;
-    background-color: rgb(220,220,220);
+.cadre{
+    border: 1px solid;
+    width: 60%;
 }
 
-imput{
+div{
+    border: 1px solid;
+    width: 30%;
+}
+
+div img{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    top: 5px;
+}
+
+input{
     margin: 2%;
+}
+
+textarea{
+    margin-top: 20px ;
 }
 
 p input{

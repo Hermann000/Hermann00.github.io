@@ -1,0 +1,32 @@
+.Logo{
+    display: flex;
+    position:relative;
+    width: 30%;
+    justify-content: center;
+}
+
+.cadre{
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(220, 220, 220);
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+.diagramme{
+    display: flex;
+    width: 50%;
+    position: relative;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
