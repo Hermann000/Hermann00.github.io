@@ -35,3 +35,13 @@ textarea{
 p input{
     margin-top: 2%;
 }
+
+.titre{
+    border: 0px;
+}
+
+.titre p{
+    color: rgb(200, 200, 200);
+    font-size: x-large;
+    margin-bottom: 5px;
+}
