@@ -53,6 +53,10 @@
     justify-content: center;
 }
 
+.lien2 a{
+    margin: 0;
+}
+
 .chercheur{
     display: flex;
     flex-direction: row;
@@ -93,4 +97,14 @@ li{
     text-align: center;
     font-size: x-large;
     padding-bottom: 1%;
+}
+
+.carte:hover{
+    background-color: white;
+    border-color: black;
+}
+
+.carte2:hover{
+    background-color: white;
+    border-color: black;
 }

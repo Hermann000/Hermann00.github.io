@@ -34,10 +34,9 @@ h1{
 }
 
 .fil-actu{
-    border: 1px solid white;
+    border: 1px solid ;
     background-color: rgb(220,220,220);
     width: 70%;
-    border-radius: 10%;
 }
 
 .fil-actu dl{
@@ -53,9 +52,12 @@ h1{
 }
 
 .fil-actu dd a{
-    border: solid 1px rgb(220, 220, 220);
+    border: solid 1px;
     background-color: rgb(200,200,200);
     margin-left: 10px;
-    border-radius: 10%;
     padding: 5px;
+}
+
+.fil-actu dd a:hover{
+    background-color: white;
 }
