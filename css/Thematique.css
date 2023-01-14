@@ -10,8 +10,7 @@ h1{
 }
 
 .thematique{
-    border: solid 1px white;
-    border-radius: 10%;
+    border: solid 1px;
     padding: 20px;
     background-color: rgb(220,220,220);
     width: 50%;
@@ -20,16 +19,14 @@ h1{
 }
 
 .axe1{
-    border: solid 1px white;
-    border-radius: 10%;
+    border: solid 1px;
     padding: 20px;
     background-color: rgb(220,220,220);
     width: 30%;
 }
 
 .axe2{
-    border: solid 1px white;
-    border-radius: 10%;
+    border: solid 1px;
     padding: 20px;
     background-color: rgb(220,220,220);
     width: 30%;

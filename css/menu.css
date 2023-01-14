@@ -33,7 +33,6 @@ header li{
     display: inline-block;
     vertical-align: top;
     position: relative;
-    background-color: rgb(200, 200, 200);
     margin: 10px;
     border-radius: 10%;
 }
