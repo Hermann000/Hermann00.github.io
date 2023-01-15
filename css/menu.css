@@ -1,10 +1,6 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
-    font-family: 'noto sans', sans-serif;
-}
-body{
-    min-height: 100vh;
 }
 
 body header{
@@ -15,10 +11,10 @@ body header{
 a{
     text-decoration: none;
     color: black;
-    all: unset;
 }
 
 .navbar{
+    display: flex;
     margin: 0 auto;
     width: 100%;
 }
@@ -33,6 +29,7 @@ header li{
     display: inline-block;
     vertical-align: top;
     position: relative;
+    background-color: rgb(200, 200, 200);
     margin: 10px;
     border-radius: 10%;
 }
@@ -41,7 +38,7 @@ header li{
     display: none;
     position: absolute;
     background-color: rgb(220, 220, 220);
-    width: 200px;
+    width: 180px;
 }
 
 header li a{
@@ -55,7 +52,9 @@ header li:hover{
 }
 
 header li:hover .sub-menu{
-    display: block;
+    display: inline-block;
+    z-index: 1;
+    padding-inline-start: 0px;
 }
 
 header ul li a{
