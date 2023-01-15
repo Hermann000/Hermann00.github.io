@@ -9,28 +9,53 @@
 
  <body>
     <header>
-        <img class="logo" src="/image/LabISEN3.png" alt="LabISEN">
         <nav class="navbar">
-            <ul>
-                <li><a href="Accueil.html"><img src="/image/Accueil.png">Accueil</a></li>
-                <li><a href="#"><img src="/image/Recherche.png">Recherche</a>
-                    <ul class="sub-menu">
-                        <li><a href="Thematique.html"> Thématiques de Recherche</a></li>
-                        <li><a href="Plateformes.html"> Plateformes technologiques</a></li>
-                    </ul>
-                 </li>
-                <li><a href="Membres.html"><img src="/image/Membres.png">Membres</a></li>
-                <li><a href="Projets.html"><img src="/image/Projets.png">Projets</a></li>
-                <li><a href="Publications.html"><img src="/image/Publications.png">Publications</a></li>
-                <li><a href="Partenaires.html"><img src="/image/Partenaires.png">Partenaires</a></li>
-                <li><a href="#"><img src="/image/Infos.png">Infos et Contacts</a>
-                    <ul class="sub-menu">
-                        <li><a href="Contactez.html"> Contactez-nous</a></li>
-                        <li><a href="Plan.html"> Plan d'accès</a></li>
-                        <li><a href="Offres.html"> Offres d'emploi</a></li>
-                    </ul>
-                </li>
+            <img class="logo" src="/image/LabISEN3.png" alt="LabISEN">
+            <nav class="nav-links">
+                <ul>
+                    <li>
+                        <a href="Accueil.html"><img src="/image/Accueil.png">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/image/Recherche.png">Recherche</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="Thematique.html"> Thématiques de Recherche</a>
+                            </li>
+                            <li>
+                                <a href="Plateformes.html"> Plateformes technologiques</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Membres.html"><img src="/image/Membres.png">Membres</a>
+                    </li>
+                    <li>
+                        <a href="Projets.html"><img src="/image/Projets.png">Projets</a>
+                    </li>
+                    <li>
+                        <a href="Publications.html"><img src="/image/Publications.png">Publications</a>
+                    </li>
+                    <li>
+                        <a href="Partenaires.html"><img src="/image/Partenaires.png">Partenaires</a>
+                    </li>
+                    <li>
+                        <a href="#" class="dernier"><img src="/image/Infos.png">Infos et Contacts</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="Contactez.html"> Contactez-nous</a>
+                            </li>
+                            <li>
+                                <a href="Plan.html"> Plan d'accès</a>
+                            </li>
+                            <li>
+                                <a href="Offres.html"> Offres d'emploi</a>
+                            </li>
+                        </ul>
+                    </li>
             </ul>
+            </nav>
+            <img src="/image/boutton-menu.png" alt="menu hamburger" class="menu-hamburger">
         </nav>
     </header>
 
@@ -50,6 +75,13 @@
     </footer>
 
  </body>
+ <script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
 
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+ </script>
  
 </html>
