@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
+    font-family: arial;
 }
 
 body header{
     color:black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a{
@@ -97,13 +97,13 @@ header li img{
     
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1400px) {
 
     header{
         background-color: rgb(220, 220, 220);
     }
 
-    .sub-menu a{
+    .sub-menu li:hover a{
         background-color: white;
     }
     
@@ -132,7 +132,6 @@ header li img{
     
     .nav-links.mobile-menu{
         margin: 0;
-        position: fixed
     }
     
     .nav-links ul{

@@ -31,6 +31,13 @@ dd{
 
 dl img{
     padding: 20px;
-    width: 500px;
-    height: 500px;
+    width: 30%;
+    height: 30%;
+}
+
+@media screen and (max-width:1400px){
+
+    dl{
+        font-size: 0.8em;
+    }
 }

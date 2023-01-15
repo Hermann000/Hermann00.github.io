@@ -22,3 +22,11 @@ div ul li a{
     list-style-type: square;
     color: rgb(233, 0, 202);
 }
+
+@media screen and (max-width:1400px){
+
+    div{
+        font-size: 0.8em;
+    }
+    
+}

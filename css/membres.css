@@ -60,6 +60,7 @@
 .chercheur{
     display: flex;
     flex-direction: row;
+    font-size: 1em;
 }
 
 .name{
@@ -107,4 +108,14 @@ li{
 .carte2:hover{
     background-color: white;
     border-color: black;
+}
+
+@media screen and (max-width:1400px){
+    .chercheur{
+        font-size: 0.8em;
+    }
+
+    .reste{
+        font-size: 0.8em;
+    }
 }
