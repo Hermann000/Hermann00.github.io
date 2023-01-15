@@ -6,6 +6,7 @@
 
 body header{
     color:black;
+    width: 100%;
 }
 
 a{
@@ -188,12 +189,6 @@ header li img{
     
 }
 
-
-
-
-
-
-
 footer{
     border-top: 1px solid white;
     width: 100%;
@@ -203,8 +198,6 @@ footer{
     margin-bottom: 0;
     background-color: rgb(220, 220, 220);
     display: flex;
-    position: static;
-    bottom: 0;
 }
 
 .lien{
