@@ -1,5 +1,5 @@
 .txt1{
-    border: 1px solid white;
+    border: 2px solid white;
     width: 60%;
     border-radius: 10%;
     background-color: rgb(220, 220, 220);
@@ -10,7 +10,7 @@
 }
 
 .txt2{
-    border: 1px solid white;
+    border: 2px solid white;
     width: 60%;
     border-radius: 10%;
     background-color: rgb(220, 220, 220);
@@ -47,4 +47,14 @@ dt{
 dd{
     text-align: left;
     padding: 20px;
+}
+
+.txt1:hover{
+    border-color: black;
+    background-color: white;
+}
+
+.txt2:hover{
+    border-color: black;
+    background-color: white;
 }
