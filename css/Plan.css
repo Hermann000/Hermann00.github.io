@@ -47,4 +47,11 @@ dd{
         font-size: 0.8em;
     }
 
+    .colone{
+        flex-direction: column;
+    }
+
+    .carte{
+        margin-bottom: 50px;
+    }
 }

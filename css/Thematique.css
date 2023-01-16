@@ -10,7 +10,8 @@ h1{
 }
 
 .thematique{
-    border: solid 1px;
+    border: solid 2px white;
+    border-radius: 10%;
     padding: 20px;
     background-color: rgb(220,220,220);
     width: 50%;
@@ -19,17 +20,35 @@ h1{
 }
 
 .axe1{
-    border: solid 1px;
-    padding: 20px;
+    border-radius: 10%;
+    border: solid 2px white;
+    padding: 50px;
     background-color: rgb(220,220,220);
-    width: 30%;
+    width: 50%;
+    margin-bottom: 50px;
 }
 
 .axe2{
-    border: solid 1px;
-    padding: 20px;
+    border: solid 2px white;
+    border-radius: 10%;
+    padding: 50px;
     background-color: rgb(220,220,220);
-    width: 30%;
+    width: 50%;
+}
+
+.thematique:hover{
+    background-color: white;
+    border-color: black;
+}
+
+.axe1:hover{
+    background-color: white;
+    border-color: black;
+}
+
+.axe2:hover{
+    background-color: white;
+    border-color: black;
 }
 
 .axe{

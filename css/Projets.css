@@ -1,11 +1,16 @@
 dl{
     display: flex;
     align-items: center;
-    border: solid 1px white;
+    border: solid 2px white;
     border-radius: 5%;
     background-color: rgb(220,220,220);
     margin-bottom: 2%;
     width: 70%;
+}
+
+dl:hover{
+    background-color: white;
+    border-color: black;
 }
 
 .titre1{
