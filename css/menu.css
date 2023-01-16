@@ -129,6 +129,7 @@ header li img{
         align-items: center;
         margin-left: -200%;
         transition: all 0.5s ease;
+        padding-bottom: 20em;
     }
     
     .nav-links.mobile-menu{
@@ -186,15 +187,10 @@ header li img{
     header li hr{
         display:none;
     }
-
-    footer{
-        font-size: 0.8em;
-    }
     
 }
 
 footer{
-
     border-top: 1px solid white;
     width: 100%;
     text-align: center;
@@ -203,9 +199,6 @@ footer{
     margin-bottom: 0;
     background-color: rgb(220, 220, 220);
     display: flex;
-    position: static;
-    position: bottom;
-    bottom: 0;
 }
 
 .lien{
