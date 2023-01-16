@@ -7,40 +7,52 @@ div{
     text-align: center;
 }
 
-.cadre{
-    border: 1px solid;
-    width: 60%;
+form img{
+    width: 2%;
+    height: 2%;
+    background-color: rgb(220,220,220);
 }
 
-div{
-    border: 1px solid;
-    width: 30%;
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+form img{
+    min-width: 25px;
+    background-color:  #ffffff;
 }
 
-div img{
-    width: 10%;
-    height: 10%;
-    top: 5px;
-}
-
-input{
+imput{
     margin: 2%;
-}
-
-textarea{
-    margin-top: 20px ;
 }
 
 p input{
     margin-top: 2%;
 }
 
-.titre{
-    border: 0px;
+label,
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
 }
 
-.titre p{
-    color: rgb(200, 200, 200);
-    font-size: x-large;
-    margin-bottom: 5px;
+imput, textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+ label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+imput{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
 }

@@ -41,3 +41,10 @@ h1{
 dt{
     text-align: center;
 }
+
+@media screen and (max-width:1400px){
+    .contenu{
+        font-size: 0.8em;
+    }
+    
+}
