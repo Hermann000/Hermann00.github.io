@@ -56,6 +56,9 @@ header li:hover .sub-menu{
     display: inline-block;
     z-index: 1;
     padding-inline-start: 0px;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 10%;
 }
 
 header ul li a{
@@ -65,13 +68,17 @@ header ul li a{
 
 .sub-menu li{
     display: block;
-    background-color: white;
-    border-radius: 0;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10%;
     margin: 0;
+    border: 1px solid ;
+    border-color: rgb(220, 220, 220);
+    margin-bottom: 2px;
 }
 
-.sub-menu li:hover a{
-    background-color: rgb(200, 200, 200);
+.sub-menu li:hover li{
+    background-color: white;
+    
 }
 
 header li img{
